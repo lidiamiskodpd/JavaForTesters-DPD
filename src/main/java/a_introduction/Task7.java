@@ -1,8 +1,13 @@
 package a_introduction;
 
+import java.util.Scanner;
+
 public class Task7 {
     public static void main(String[] args) {
-        int dayOfTheWeek = 6;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Podaj liczbę");
+        int dayOfTheWeek = scanner.nextInt();
+
         switch (dayOfTheWeek) {
             case 1:
                 System.out.println("Monday");

@@ -3,9 +3,7 @@ package a_introduction;
 public class Task6 {
     public static void main(String[] args) {
         double alcoholContent = 5.5;
-        final String beerType = alcoholContent >= 4
-                ? "mocne"
-            :"słabe";
+        final String beerType = alcoholContent >= 4 ? "mocne" :"słabe";
         System.out.println(beerType);
     }}
 
