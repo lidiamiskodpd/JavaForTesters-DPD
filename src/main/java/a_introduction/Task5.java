@@ -13,12 +13,12 @@ public class Task5 {
         int wiek = scanner.nextInt();
 
         if (wiek >= 18) {
-            System.out.println(imie + " ma " + wiek + " lat i jest pełnoletni");
+            System.out.println(imie + " ma " + wiek + " lat i jest pełnoletni/pełnoletnia");
         }
             else {
-                System.out.println(imie + " ma " + wiek + " lat i nie jest pełnoletni");
+                System.out.println(imie + " ma " + wiek + " lat i nie jest pełnoletni/pełnoletnia");
             }
-
+        scanner.close();
         }
     }
 
