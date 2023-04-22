@@ -2,16 +2,22 @@ package a_introduction;
 
 public class Task11 {
     public static void main(String[] args) {
-        boolean test3 = validateSumWithDiscount(10, 10, 6, 200);
+        boolean test3 = validateSumWithDiscount(10, 10.866, 9, 94);
         System.out.println(test3);
     }
 
     public static boolean validateSumWithDiscount(int pcs, double price, double discount, double expectedSum) {
 
-        expectedSum = (pcs * price) - (((pcs * price) * discount )/100);
-        System.out.println(expectedSum);
-        return false;
-    }
+        double expectedSumNew = (pcs * price) - (((pcs * price) * discount )/100);
+
+        System.out.println(expectedSumNew);
+        if (expectedSumNew == expectedSum) {
+            return true;
+        }
+        else  return false;
+        }
+
+
 }
 
 
